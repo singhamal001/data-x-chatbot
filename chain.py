@@ -16,7 +16,7 @@ from langchain.chains import ConversationalRetrievalChain
 # load_dotenv()
 
 def chatbot_chain():
-    loader = PyPDFLoader(file_path="bc1_cc3_merged.pdf")
+    loader = PyPDFLoader(file_path="cc1.pdf")
     documents = loader.load()
     vectorstore = FAISS.from_documents(documents, OpenAIEmbeddings())
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
