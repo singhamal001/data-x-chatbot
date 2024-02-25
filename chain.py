@@ -16,7 +16,7 @@ from langchain.chains import ConversationalRetrievalChain
 # load_dotenv()
 
 def chatbot_chain():
-    # os.environ["OPENAI_API_KEY"] = 
+    os.environ["OPENAI_API_KEY"] ="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" 
     loader = PyPDFLoader(file_path="bc1_cc3_merged.pdf")
     documents = loader.load()
     vectorstore = FAISS.from_documents(documents, OpenAIEmbeddings())
