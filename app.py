@@ -1,3 +1,9 @@
+try:
+    print(['pip', 'install', '-r', 'requirements.txt'])
+    subprocess.run(['pip', 'install', '-r', 'requirements.txt'], check=True)
+except Exception as e: 
+    print('installing requirements',e)
+
 from chain import chatbot_chain
 import streamlit as st
 
