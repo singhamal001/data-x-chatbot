@@ -1,6 +1,3 @@
-A README file serves as the first piece of documentation a user sees when they encounter your GitHub repository or software project. It should provide a comprehensive overview of the project, including its purpose, features, installation guide, usage examples, and any other relevant information. Below is a template for a README file for a RAG (Retriever-Augmented Generation) based chatbot designed for answering questions related to cryptocurrency.
----
-
 # CryptoCompass: A RAG-Based Chatbot for Cryptocurrency Inquiries
 
 ## Overview
